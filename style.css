@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+}
+body{
+    font-family: "Permanent Marker";
+position: relative;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.screen{
+    position: relative;
+    height: 600px;
+    width: 360px;
+    box-shadow: 0px 0px 24px #5c5696;
+}
+.screen_content{
+    z-index: 1;
+    position: relative;
+    height: 100%;
+}
+.login{
+    width: 320px;
+    padding: 30px;
+    padding-top: 156px;
+}
+.login_field{
+    padding: 20px 0px;
+    position: relative;
+}
+.login_icon{
+    position: absolute;
+    top: 30px;
+    color: #7875b5;
+}
+.login_input{
+    border: non;
+    border-bottom: 2px solid lightblue;
+    background: none;
+    padding: 10px;
+    padding-left: 24px;
+    font-weight: 700;
+    width: 75%;
+    transition: .1s;
+}
+.login_input:active,
+.login_input:focus,
+.login_input:hover {
+    outline: none;
+    border-bottom-color:#6a679e ;
+}
+.login_submit{
+    background: lightblue;
+    font-size: 14px;
+    margin-top: 30px;
+    padding: 16px 20px;
+    border-radius: 26px;
+    border: 1px solid #d4d3e8;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: black;
+    box-shadow: 0px 2px 2px #5c5696;
+    transition: .1s;
+}
+.login_submit:active,
+.login_submit:focus,
+.login_submit:hover{
+    border-color: #6a679e;
+    outline: none;
+}
+.button_icon{
+    font-size: 24px;
+    margin-left: auto;
+    color: #7875b5;
+}
+.social-login{
+    position: absolute;
+    height: 140px;
+    width: 160px;
+    text-align: center;
+    bottom: 0px;
+    right: 0px;
+    color: lightblue;
+}
+.social-login_icon{
+    padding: 20px 10px;
+    color: lightblue;
+    text-decoration: none;
+    text-shadow: 0px 0px 8px #7875b5;
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-login_icon:hover{
+    transform: scale(1.5);
+}
