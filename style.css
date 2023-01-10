@@ -23,6 +23,7 @@ main{
     box-shadow: 0 0 24px #5c5696 ;
     margin: 20px;
     font-weight: 100;
+    align-items: center;
 }
 .container{
     display: flex;
@@ -124,6 +125,9 @@ main{
     display: block;
     box-shadow:2px 2px 2px 2px #5c5696;
 }
+.about_me{
+    background: aqua;
+}
 .about_text{
 display: block;
 border-style: solid;
@@ -132,4 +136,17 @@ text-align: center;
 justify-content: center;
 margin: 20px;
 padding: 20px;
-box-shadow:2px 2px 2px 2px #5c5696;}
+box-shadow:2px 2px 2px 2px #5c5696;
+font-weight: 200;
+}
+.contact{
+    display: block;
+    border-style: solid;
+border-radius: 20px 20px 20px 20px;
+text-align: center;
+justify-content: center;
+margin: 20px;
+padding: 20px;
+box-shadow:2px 2px 2px 2px #5c5696;
+font-weight: 200;
+}
